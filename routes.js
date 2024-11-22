@@ -9,6 +9,6 @@ router.get('/check',(req,res)=>{
 
 
 // Flipkart Live data 
-router.post('/amazonlivedatabyurl',fk.amazonlivedatabyurl)
+router.post('/amazonlivedatabyurl',am.amazonlivedatabyurl)
 
 module.exports=router;
